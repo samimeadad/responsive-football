@@ -1,0 +1,10 @@
+/*Import poppins regular font from fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Apply the generic font poppins regualr for entire html body */
+body{
+    margin = 0px;
+    padding = 0px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}

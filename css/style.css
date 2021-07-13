@@ -9,9 +9,61 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* Styles for Top Banner */
+
+/* Top Banner Generic Styles */
 .top-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 677px;
     background-color: #2D25A0;
+}
+
+/* Banner Heading Dimension */
+.banner-heading{
+    width: 485px;
+    height: 230px;
+}
+
+/* Style for Banner Heading Text */
+.banner-heading h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Style for Live Wathc Button */
+.watch-live{
+    margin-top: 27px;
+    padding: 10px 24px;
+    width: 110px;
+    background-color: #E02C6D;
+}
+
+.watch-live-button{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.fa-arrow-right{
+    margin-left: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.banner-image{
+    margin-top: 100px;
+    margin-left: 102px;
+}
+
+.banner-image img{
+    width: 556px;
+    height: 438px;
 }

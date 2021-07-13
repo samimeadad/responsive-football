@@ -3,8 +3,15 @@
 
 /* Apply the generic font poppins regualr for entire html body */
 body{
-    margin = 0px;
-    padding = 0px;
+    margin: 0px;
+    padding: 0px;
     background-color: white;
     font-family: 'Poppins', sans-serif;
+}
+
+.top-banner{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 677px;
+    background-color: #2D25A0;
 }

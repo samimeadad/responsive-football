@@ -38,7 +38,7 @@ body{
     margin-bottom: 0px;
 }
 
-/* Style for Live Wathc Button */
+/* Style for Live Watch Button */
 .watch-live{
     margin-top: 27px;
     padding: 10px 24px;
@@ -58,6 +58,7 @@ body{
     color: white;
 }
 
+/* Styles for Banner Image */
 .banner-image{
     margin-top: 100px;
     margin-left: 102px;

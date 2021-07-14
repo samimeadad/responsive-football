@@ -89,3 +89,48 @@ body{
 .top-banner:hover>.banner-heading>h1{
     color: #2D25A0;
 }
+
+/* top banner styles end here */
+
+/* Styles for Image Gallery */
+.photo-album{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    padding: 15px 0px 0px 30px;
+    box-shadow: 0 0 35px lightgray;
+}
+
+.photo img{
+    width: 300px;
+    height: 256px;
+}
+
+.player-name{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.photo-caption{
+    margin-top: 0px;
+    width: 90%;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+}

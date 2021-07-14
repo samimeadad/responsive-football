@@ -1,6 +1,7 @@
 /*Import poppins regular font from fonts.google.com */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
 /* Apply the generic font poppins regualr for entire html body */
 body{
     margin: 0px;
@@ -9,7 +10,9 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* *************************** */
 /* Styles for Top Banner */
+/* *************************** */
 
 /* Top Banner Generic Styles */
 .top-banner{
@@ -25,8 +28,8 @@ body{
 
 /* Banner Heading Dimension */
 .banner-heading{
-    width: 485px;
-    height: 230px;
+    width: 25%;
+    height: 15em;
 }
 
 /* Style for Banner Heading Text */
@@ -61,8 +64,8 @@ body{
 
 /* Styles for Banner Image */
 .banner-image{
-    margin-top: 100px;
-    margin-left: 102px;
+    margin-top: 5em;
+    margin-left: 10em;
 }
 
 .banner-image img{
@@ -76,24 +79,31 @@ body{
     height: 45em;
 }
 
+/* transform the banner heading */
 .top-banner:hover>.banner-heading{
     transform: scale(1.25) translate(-50px, -50px);
     transition: transform 1s linear;
 }
 
+/* transform the banner image */
 .top-banner:hover>.banner-image img{
     transform: scale(1.25) rotate(360deg) translate(50px, -50px);
     transition: transform 1s linear;
     margin-left: 100px;
 }
 
+/* change the color of banner heading text */
 .top-banner:hover>.banner-heading>h1{
     color: #2D25A0;
 }
-
 /* top banner styles end here */
 
-/* Styles for Image Gallery */
+
+/* **********************************/
+/* Styles for Image Gallery Section */
+/* **********************************/
+
+/* style for the entire photo album section */
 .photo-album{
     width: 100%;
     margin-top: 70px;
@@ -101,6 +111,7 @@ body{
     justify-content: center;
 }
 
+/* styles for the photo album */
 .photos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -108,6 +119,7 @@ body{
     grid-row-gap: 30px;
 }
 
+/* styles for each individual photo and its caption */
 .photo{
     display: flex;
     flex-direction: column;
@@ -116,17 +128,20 @@ body{
     box-shadow: 0 0 35px lightgray;
 }
 
+/* style for the image */
 .photo img{
     width: 300px;
     height: 256px;
 }
 
+/* style for the plyer name */
 .player-name{
     font-size: 28px;
     font-weight: 700;
     line-height: 40px;
 }
 
+/* style for the caption text */
 .photo-caption{
     margin-top: 0px;
     width: 90%;
@@ -134,4 +149,96 @@ body{
     font-size: 16px;
     font-weight: normal;
     line-height: 26px;
+}
+
+/* ********************************* */
+/* Styles for All Highlights Section */
+/* ********************************* */
+
+/* styles for highlight section */
+.highlights-section{
+    width: 100%;
+    margin-top: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Highlights Heading Dimension */
+.highlights-heading{
+    width: 30%;
+}
+
+/* Style for Highlights Heading Text */
+.highlights-text{
+    width: 469px;
+    text-align: justify;
+}
+.highlights-text h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color:black;
+}
+
+.highlights-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Style for Watch Now Button */
+.watch-now{
+    margin-top: 27px;
+    padding: 10px 24px;
+    width: 110px;
+    background-color: #E02C6D;
+}
+
+.watch-now-button{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.highlights-image img{
+    width: 567px;
+    height: 427px;
+}
+
+/* style for watch now hover */
+
+
+/* ********************* */
+/* styles for footer */
+/* ********************* */
+
+.footer-section{
+    margin-top: 10em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styles for footer logo */
+.footer-image img{
+    width: 485px;
+    height: 115px;
+}
+
+.social-icons a{
+    font-size: 24px;
+    text-align: center;
+    color: #969BAB;
+    margin-right: 14px;
+}
+
+.copyright-text{
+    fort-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
 }

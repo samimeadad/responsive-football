@@ -6,6 +6,8 @@
 body{
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     font-family: 'Poppins', sans-serif;
 }
@@ -36,6 +38,7 @@ body{
 .banner-heading h1{
     font-size: 64px;
     font-weight: 700;
+    font-style: normal;
     line-height: 80px;
     color: white;
     margin-top: 0px;
@@ -44,7 +47,8 @@ body{
 
 /* Style for Live Watch Button */
 .watch-live{
-    margin-top: 27px;
+    margin-top: 20px;
+    margin-right: 0px;
     padding: 10px 24px;
     width: 110px;
     background-color: #E02C6D;
@@ -173,19 +177,24 @@ body{
 /* Style for Highlights Heading Text */
 .highlights-text{
     width: 469px;
-    text-align: justify;
 }
+
+/* Style for Highlights Heading Text */
 .highlights-text h1{
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
     color:black;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
+/* Styles for Highlights Caption text */
 .highlights-text p{
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+    text-align: justify;
 }
 
 /* Style for Watch Now Button */
@@ -237,7 +246,7 @@ body{
 }
 
 .copyright-text{
-    fort-size: 18px;
+    font-size: 18px;
     line-height: 24px;
     font-weight: 400;
     font-style: normal;

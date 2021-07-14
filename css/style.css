@@ -79,7 +79,7 @@ body{
 
 /* Top Banner Mouse Over Styles (hover) */
 .top-banner:hover{
-    background-color:lightgrey;
+    background-color: lightsalmon;
     height: 45em;
 }
 

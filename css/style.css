@@ -18,7 +18,8 @@ body{
     align-items: center;
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 677px;
+    height: 40em;
+    width: 100%;
     background-color: #2D25A0;
 }
 
@@ -71,8 +72,8 @@ body{
 
 /* Top Banner Mouse Over Styles (hover) */
 .top-banner:hover{
-    background-color:lightgray;
-    
+    background-color:lightgrey;
+    height: 45em;
 }
 
 .top-banner:hover>.banner-heading{

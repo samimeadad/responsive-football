@@ -253,3 +253,76 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+
+
+/* Responsive website with media queries */
+
+@media screen and (max-width: 688px){
+
+    /* media queries for top banner section */
+    .top-banner{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .banner-heading{
+        margin-left: 16px;
+    }
+
+    .banner-heading h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .banner-image{
+        margin-left: 16px;
+    }
+    
+    .banner-image img{
+        width: 329px;
+        height: 259px;
+    }
+    /* media queries for top banner ends here */
+
+    /* media queries for image gallery */
+    .photos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 24px;
+    }
+
+    /* media queries for highlights section */
+    .highlights-section{
+        width: 100%;
+        margin: 60px 0px 0px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .highlights-heading{
+        width: 100%;
+    }
+    
+    .highlights-text{
+        width: 90%;
+    }
+
+    .highlights-text h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .highlights-image img{
+        margin-top: 30px;
+        width: 328px;
+        height: 248px;
+    }
+
+    .footer-section{
+        margin-top: 50px;
+    }
+
+    .footer-image img{
+        width: 300px;
+        height: 70px;
+    }
+}

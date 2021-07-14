@@ -238,6 +238,7 @@ body{
     height: 115px;
 }
 
+/* styles for social icons */
 .social-icons a{
     font-size: 24px;
     text-align: center;
@@ -245,6 +246,7 @@ body{
     margin-right: 14px;
 }
 
+/* styles for copyright text */
 .copyright-text{
     font-size: 18px;
     line-height: 24px;

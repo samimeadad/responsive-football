@@ -257,6 +257,7 @@ body{
 
 /* Responsive website with media queries */
 
+/* Media Queries for mobile phones (Maximum Width = 688px) */
 @media screen and (max-width: 688px){
 
     /* media queries for top banner section */
@@ -317,6 +318,7 @@ body{
         height: 248px;
     }
 
+    /* media queries for footer section */
     .footer-section{
         margin-top: 50px;
     }
@@ -325,4 +327,67 @@ body{
         width: 300px;
         height: 70px;
     }
+}
+
+/* Media Queries for tablets (Minimum Width = 689px && Maximum Width = 992px) */
+
+@media screen and (min-width: 689px) and (max-width: 992px){
+    
+    /* media queries for top banner section */
+
+    .banner-heading h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .banner-image img{
+        width: 329px;
+        height: 259px;
+    }
+    /* media queries for top banner ends here */
+
+    /* media queries for image gallery */
+    .photos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 24px;
+    }
+
+
+        /* media queries for highlights section */
+        .highlights-section{
+            width: 100%;
+            margin: 60px 0px 0px 16px;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        .highlights-heading{
+            width: 100%;
+        }
+        
+        .highlights-text{
+            width: 90%;
+        }
+    
+        .highlights-text h1{
+            font-size: 30px;
+            line-height: 40px;
+        }
+    
+        .highlights-image img{
+            margin-top: 30px;
+            width: 328px;
+            height: 248px;
+        }
+    
+        /* media queries for footer section */
+        .footer-section{
+            margin-top: 50px;
+        }
+    
+        .footer-image img{
+            width: 300px;
+            height: 70px;
+        }
 }

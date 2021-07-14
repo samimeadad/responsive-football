@@ -211,9 +211,12 @@ body{
     font-size: 16px;
 }
 
-.highlights-image img{
-    width: 567px;
-    height: 427px;
+/* Styles for Bonus Section */
+.highlights-video{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
 /* style for watch now hover */
@@ -312,12 +315,6 @@ body{
         line-height: 40px;
     }
 
-    .highlights-image img{
-        margin-top: 30px;
-        width: 328px;
-        height: 248px;
-    }
-
     /* media queries for footer section */
     .footer-section{
         margin-top: 50px;
@@ -372,12 +369,6 @@ body{
     .highlights-text h1{
         font-size: 30px;
         line-height: 40px;
-    }
-    
-    .highlights-image img{
-        margin-right: 50px;
-        width: 467px;
-        height: 327px;
     }
     
     /* media queries for footer section */

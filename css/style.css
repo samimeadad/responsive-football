@@ -68,3 +68,24 @@ body{
     width: 556px;
     height: 438px;
 }
+
+/* Top Banner Mouse Over Styles (hover) */
+.top-banner:hover{
+    background-color:lightgray;
+    
+}
+
+.top-banner:hover>.banner-heading{
+    transform: scale(1.25) translate(-50px, -50px);
+    transition: transform 1s linear;
+}
+
+.top-banner:hover>.banner-image img{
+    transform: scale(1.25) rotate(360deg) translate(50px, -50px);
+    transition: transform 1s linear;
+    margin-left: 100px;
+}
+
+.top-banner:hover>.banner-heading>h1{
+    color: #2D25A0;
+}
